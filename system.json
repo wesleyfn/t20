@@ -1,0 +1,26 @@
+{
+    "name": "t20",
+    "title": "Tormenta 20 - Custom",
+    "description": "A system for fun and programming practice",
+    "author": "Véxi",
+    "version": "0.01",
+    "minimumCoreVersion": "9.249",
+    "compatibleCoreVersion": "9.249",
+    "esmodules": [
+        "t20.js"
+    ],
+    "styles": [
+        "t20.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "vida",
+    "secondaryTokenAttribute": "mana",
+    "initiative": "1d20 + @inic"
+}
