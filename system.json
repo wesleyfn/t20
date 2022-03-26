@@ -3,7 +3,7 @@
     "title": "Tormenta 20 - Custom",
     "description": "A system for fun and programming practice",
     "author": "Véxi",
-    "version": "0.01",
+    "version": "0.0.1",
     "minimumCoreVersion": "9.249",
     "compatibleCoreVersion": "9.249",
     "esmodules": [
@@ -22,5 +22,8 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "vida",
     "secondaryTokenAttribute": "mana",
-    "initiative": "1d20 + @inic"
+    "initiative": "1d20 + @inic",
+    "url": "https://github.com/wesleyfn/t20",
+    "manifest": "https://github.com/wesleyfn/t20/releases/download/v0.0.1/system.json",
+    "download": "https://github.com/wesleyfn/t20/releases/download/v0.0.1/system.zip"
 }
