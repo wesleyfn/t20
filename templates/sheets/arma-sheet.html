@@ -1,0 +1,63 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <div class="sheet-nameright">
+            <h1>
+                <input style="border: 0;" name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
+            </h1>
+            <h1 style="flex: 0; padding: 8px 2%;">
+                {{config.propositoArma.leve}}
+            </h1>
+        </div>
+    </header>
+    <!-- <div class="sheet-content">
+        <table style="border: 0px;">
+            <tr scope="col">
+                <th>{{ localize "T20.WeaponType" }}</th>
+                <th>{{ localize "T20.DamageType" }}</th>
+                <th>{{ localize "T20.Range" }}</th>
+                <th>{{ localize "T20.CriticalM" }}</th>
+                <th>{{ localize "T20.CriticalX" }}</th>
+                <th>{{ localize "T20.Damage" }}</th>
+            </tr>
+            <tr>
+                <th>
+                    <select name="data.dificuldadeUso">
+                        {{#select data.data.facilidadeUso}}
+                        {{#each config.profArmas as |nome tipo|}}
+                        <option value="{{tipo}}">{{localize nome}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </th>
+                <th>
+                    <select name="data.tipoDano">
+                        {{#select data.data.tipoDano}}
+                        {{#each config.tipoDano as |nome tipo|}}
+                        <option value="{{tipo}}">{{localize nome}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </th>
+                <th>
+                    <input name="data.alcance" type="text" value="{{data.data.alcance}}">
+                </th>
+                <th>
+                    <input name="data.criticoM" type="number" value="{{data.data.criticoM}}" data-dtype="Number">
+                </th>
+                <th>
+                    <input name="data.criticoX" type="number" value="{{data.data.criticoX}}" data-dtype="Number">
+                </th>
+                <th>
+                    <input name="data.dano" type="text" value="{{data.data.dano}}">
+                </th>
+            </tr>
+        </table>
+        <textarea name="data.descricao">{{data.data.descricao}}</textarea>
+        <div class="sheet-baseboard">
+            <span>Preço: 35T$</span>
+            <span>Peso: 1kg</span>
+            <span>PV: 10/10</span>
+        </div>
+    </div> -->
+</form>

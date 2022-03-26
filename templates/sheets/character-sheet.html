@@ -1,0 +1,161 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+        <section class="header-details">
+            <h1 style="display: flex;">
+                <input class="character-name" name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'T20.Character' }}"/>
+                <div class="level">
+                    <input type="button" value="Level 1">
+                </div>
+            </h1>
+            <div>
+                <ul class="header-list">
+                    <li><input name="data.detalhes.classe" value="{{data.data.detalhes.classe}}" type="text" placeholder="Classe"></li>
+                    <li><input name="header-input" type="text" placeholder="Raça"></li>
+                    <li><input name="header-input" type="text" placeholder="Origem"></li>
+                    <li><input name="header-input" type="text" placeholder="Divindade"></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <div>
+        <section class="attribute-row">
+            <!-- FOR -->
+            <div>
+                <div class="attribute-box">
+                    <div class="container-border">
+                        <div class="border-top-left"></div>
+                        <label class="attribute-name">
+                            FOR
+                        </label>
+                        <div class="border-top-right"></div>
+                    </div>
+                    <input class="attribute-mod" name="data.atributos.for.mod" type="number" value="{{data.data.atributos.for.value}}" data-dtype="Number">
+                    <div class="container-border" style="height: 15px;">
+                        <div class="border-bottom-left"></div>
+                        <label class="attribute-name" style="border-bottom: 1px solid; border-top: none;">
+                            <input class="input-attribute-value" name="data.atributos.for.value" type="number" value="{{data.data.atributos.for.value}}" data-dtype="Number" style="background: url(../ui/parchment.jpg) repeat;">
+                            <div>{{#mod data.data.atributos.for.value}}{{/mod}}</div>
+                        </label>
+                        <div class="border-bottom-right"></div>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- DES -->
+            <div>
+                <div class="attribute-box">
+                    <div class="container-border">
+                        <div class="border-top-left"></div>
+                        <label class="attribute-name">
+                            DES
+                        </label>
+                        <div class="border-top-right"></div>
+                    </div>
+                    <label class="attribute-mod">
+                        0
+                    </label>
+                    <div class="container-border" style="height: 15px;">
+                        <div class="border-bottom-left"></div>
+                        <label class="attribute-name" style="border-bottom: 1px solid; border-top: none;">
+                            <input class="input-attribute-value" type="number"placeholder="0" style="background: url(../ui/parchment.jpg) repeat;">
+                        </label>
+                        <div class="border-bottom-right"></div>
+                    </div>
+                </div>
+            </div> 
+            <!-- CON -->
+            <div>
+                <div class="attribute-box">
+                    <div class="container-border">
+                        <div class="border-top-left"></div>
+                        <label class="attribute-name">
+                            CON
+                        </label>
+                        <div class="border-top-right"></div>
+                    </div>
+                    <label class="attribute-mod">
+                        0
+                    </label>
+                    <div class="container-border" style="height: 15px;">
+                        <div class="border-bottom-left"></div>
+                        <label class="attribute-name" style="border-bottom: 1px solid; border-top: none;">
+                            <input class="input-attribute-value" type="number"placeholder="0" style="background: url(../ui/parchment.jpg) repeat;">
+                        </label>
+                        <div class="border-bottom-right"></div>
+                    </div>
+                </div>
+            </div> 
+            <!-- INT -->
+            <div>
+                <div class="attribute-box">
+                    <div class="container-border">
+                        <div class="border-top-left"></div>
+                        <label class="attribute-name">
+                            INT
+                        </label>
+                        <div class="border-top-right"></div>
+                    </div>
+                    <label class="attribute-mod">
+                        0
+                    </label>
+                    <div class="container-border" style="height: 15px;">
+                        <div class="border-bottom-left"></div>
+                        <label class="attribute-name" style="border-bottom: 1px solid; border-top: none;">
+                            <input class="input-attribute-value" type="number"placeholder="0" style="background: url(../ui/parchment.jpg) repeat;">
+                        </label>
+                        <div class="border-bottom-right"></div>
+                    </div>
+                </div>
+            </div> 
+            <!-- SAB -->
+            <div>
+                <div class="attribute-box">
+                    <div class="container-border">
+                        <div class="border-top-left"></div>
+                        <label class="attribute-name">
+                            SAB
+                        </label>
+                        <div class="border-top-right"></div>
+                    </div>
+                    <label class="attribute-mod">
+                        0
+                    </label>
+                    <div class="container-border" style="height: 15px;">
+                        <div class="border-bottom-left"></div>
+                        <label class="attribute-name" style="border-bottom: 1px solid; border-top: none;">
+                            <input class="input-attribute-value" type="number"placeholder="0" style="background: url(../ui/parchment.jpg) repeat;">
+                        </label>
+                        <div class="border-bottom-right"></div>
+                    </div>
+                </div>
+            </div> 
+            <!-- CAR -->
+            <div>
+                <div class="attribute-box">
+                    <div class="container-border">
+                        <div class="border-top-left"></div>
+                        <label class="attribute-name">
+                            CAR
+                        </label>
+                        <div class="border-top-right"></div>
+                    </div>
+                    <label class="attribute-mod">
+                        0
+                    </label>
+                    <div class="container-border" style="height: 15px;">
+                        <div class="border-bottom-left"></div>
+                        <label class="attribute-name" style="border-bottom: 1px solid; border-top: none;">
+                            <input class="input-attribute-value" type="number"placeholder="0" style="background: url(../ui/parchment.jpg) repeat;">
+                        </label>
+                        <div class="border-bottom-right"></div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <div>
+        </div>
+    </div>
+</form>

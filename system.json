@@ -1,29 +1,32 @@
 {
-    "name": "t20",
-    "title": "Tormenta 20 - Custom",
-    "description": "A system for fun and programming practice",
-    "author": "Véxi",
-    "version": "0.0.1",
-    "minimumCoreVersion": "9.249",
-    "compatibleCoreVersion": "9.249",
-    "esmodules": [
-        "t20.js"
-    ],
-    "styles": [
-        "t20.css"
-    ],
-    "packs": [
+  "name": "t20",
+  "title": "Tormenta 20 - Custom",
+  "description": "A system for fun and programming practice",
+  "author": "Véxi",
+  "version": "0.0.1",
+  "minimumCoreVersion": "9.249",
+  "compatibleCoreVersion": "9.249",
+  "esmodules": [
+      "t20.js"
+  ],
+  "styles": [
+      "t20.css"
+  ],
+  "packs": [
 
-    ],
-    "languages": [
-
-    ],
-    "gridDistance": 1.5,
-    "gridUnits": "m",
-    "primaryTokenAttribute": "vida",
-    "secondaryTokenAttribute": "mana",
-    "initiative": "1d20 + @inic",
-    "url": "https://github.com/wesleyfn/t20",
-    "manifest": "https://github.com/wesleyfn/t20/releases/download/v0.0.1/system.json",
-    "download": "https://github.com/wesleyfn/t20/releases/download/v0.0.1/system.zip"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "vida",
+  "secondaryTokenAttribute": "mana",
+  "initiative": "1d20 + @inic",
+  "url": "https://github.com/wesleyfn/t20",
+  "download": "https://github.com/wesleyfn/t20/releases/download/v0.0.1/system.zip"
 }

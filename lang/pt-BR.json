@@ -1,0 +1,27 @@
+{
+    "T20.None": "Nenhum",
+    "T20.Attribute": "Atributo",
+    "T20.AttributeStr": "Força",
+    "T20.AttributeCon": "Constituição",
+    "T20.AttributeDex": "Destreza",
+    "T20.AttributeInt": "Inteligência",
+    "T20.AttributeWis": "Sabedoria",
+    "T20.AttributeCha": "Carisma",
+    "T20.AttributeStrAbr": "FOR",
+    "T20.AttributeConAbr": "CON",
+    "T20.AttributeDexAbr": "DES",
+    "T20.AttributeIntAbr": "INT",
+    "T20.AttributeWisAbr": "SAB",
+    "T20.AttributeChaAbr": "CAR",
+    "T20.AttributeModifier": "Modificador",
+
+    "T20.Damage": "Dano",
+    "T20.DamageType": "Tipo de Dano",
+    "T20.Range": "Alcance",
+    "T20.CriticalM": "Margem",
+    "T20.CriticalX": "Multi.",
+    "T20.WeaponType": "Tipo de Arma",
+    
+    "T20.Name": "Nome",
+    "T20.Character": "Personagem"
+}
